@@ -46,7 +46,11 @@ contCont.addEventListener('click', (event) => {
         contCont.style.opacity = "1.0";
     })
 
-document.addEventListener("scroll", (event) => {
-    let container = document.querySelector('.home');
-    container.style.background = "black";
+    //////////////////////////////////////////////
+
+document.addEventListener("scroll", (event) => {   //6
+    let container = document.querySelector('.footer');
+    alert("Hi! I'm annoying! you can keep scrolling, just acknowledge me");
+    alert = function () {};
 })
+
